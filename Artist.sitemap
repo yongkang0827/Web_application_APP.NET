@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="" title="Menu"  description="">
+		<siteMapNode url="~/Master/ASPX/artistHome.aspx" title="Home"  description="" />
+
+		<siteMapNode url="~/TYK/Gallery.aspx" title="My Gallery"  description="">
+			<siteMapNode url="~/TYK/uploadImg.aspx" title="Add new Image"  description=""/>
+		</siteMapNode>
+
+		<siteMapNode url="~/LHY/ASPX/ArtistProfile.aspx" title="My Profile"  description="" roles="C">
+
+		</siteMapNode>
+		
+		<siteMapNode url="~/Master/ASPX/aboutus.aspx" title="About Us"  description=""/>
+		<siteMapNode url="~/LHY/ASPX/login.aspx" title="Log Out"  description=""/>
+	</siteMapNode>
+
+
+</siteMap>
